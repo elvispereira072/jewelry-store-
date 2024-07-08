@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ótica Perfeição</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            position: relative;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            color: #333;
+        }
+
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        header {
+            background: rgba(5, 5, 5, 0.089);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            background: rgba(5, 5, 5, 0.089);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        p {
+            color: white;
+        }
+
+        h2,
+        h3 {
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: rgba(5, 5, 5, 0.089);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <video id="video-background" autoplay muted loop>
+        <source src="assets/video.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+    </video>
+
+    <header>
+        <h1>Bem-vindo à Ótica Perfeição</h1>
+    </header>
+
+    <section>
+        <h2>Nossa História</h2>
+        <p>A Ótica Perfeição foi fundada em 2005 por dois amigos que compartilhavam uma profunda paixão por óculos e o sonho de criar um espaço onde os amantes de óculos pudessem encontrar tudo o que precisavam. Desde então, estamos comprometidos em fornecer aos nossos clientes uma seleção diversificada de óculos e acessórios, todos da mais alta qualidade.</p>
+        <p>Nosso objetivo é oferecer uma experiência de compra única, atendendo tanto iniciantes quanto conhecedores.</p>
+    </section>
+    <br>
+
+    <section>
+        <h2>Nossa Missão</h2>
+        <p>Nossa missão é oferecer uma experiência de compra excepcional, com uma ampla variedade de óculos, acessórios e serviços. Nosso objetivo é promover o crescimento e a satisfação de nossos clientes, criando uma comunidade onde a moda e a funcionalidade dos óculos prosperam.</p>
+    </section>
+    <br>
+
+    <section>
+        <ul>
+            <li>
+                <h3>Diversidade</h3>
+                <p>Nossa loja apresenta uma vasta gama de óculos, desde modelos clássicos a modernos, atendendo a todos os gostos e preferências.</p>
+            </li>
+            <br>
+
+            <li>
+                <h3>Qualidade</h3>
+                <p>Garantimos a mais alta qualidade em todos os nossos produtos, selecionando apenas as melhores marcas e modelos para nossos clientes.</p>
+            </li>
+            <br>
+
+            <li>
+                <h3>Expertise</h3>
+                <p>Nosso time é composto por especialistas conhecedores e apaixonados, sempre prontos para ajudá-lo a encontrar o óculos ou acessório perfeito para suas necessidades.</p>
+            </li>
+            <br>
+
+            <li>
+                <h3>Serviço</h3>
+                <p>Estamos dedicados a fornecer um atendimento amigável e eficiente, garantindo que cada visita à nossa loja seja agradável e satisfatória.</p>
+            </li>
+        </ul>
+        <br>
+    </section>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ótica Perfeição - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
